@@ -12,7 +12,8 @@ include <./config/miscTall-Config.scad>
 $fn = $preview ? 30 : 100;
 
 PART = "socketHolder";
-PART = "labels"; //for printing separate labels, ignore if you set includeLabels = true (i.e. integrated labels)
+//For printing separate labels, only needed to render lables if you set includeLabels = false 
+//PART = "labels"; 
 
 numOfSteps = len(socketDiameters);
 
