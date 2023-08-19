@@ -4,6 +4,10 @@ This project is a modification of the OpenSCAD code at https://www.printables.co
 
 The original is licensed Creative Commons (4.0 International License) Attribution-ShareAlike (https://creativecommons.org/licenses/by-sa/4.0/legalcode). By the terms of the license that is also the license of this modification.
 
+![IMG_1203](https://github.com/mjparme/socket-holder/assets/1580996/6d8c0b7d-e261-40e1-a022-07347d0124b6)
+![IMG_1204](https://github.com/mjparme/socket-holder/assets/1580996/20fbf65b-ca39-4395-9c30-3d77eea058f6)
+
+
 # Changes From Original
 
 ## General Cleanup
