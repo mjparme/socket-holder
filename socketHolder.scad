@@ -13,7 +13,8 @@ $fn = $preview ? 30 : 100;
 
 PART = "socketHolder";
 //For printing separate labels, only needed to render lables if you set includeLabels = false 
-PART = "labels"; 
+//Render the socket holder, then uncomment this line to render the lables
+//PART = "labels"; 
 
 numOfSteps = len(socketDiameters);
 
