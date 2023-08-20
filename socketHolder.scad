@@ -12,7 +12,7 @@ include <./config/starMetric-Config.scad>
 $fn = $preview ? 30 : 100;
 
 PART = "socketHolder";
-//For printing separate labels, only needed to render lables if you set includeLabels = false 
+//For printing separate labels, only needed to render labels if you set includeLabels = false 
 //Render the socket holder, then uncomment this line to render the lables
 //PART = "labels"; 
 
