@@ -20,8 +20,8 @@ from multiple places
 ## Organization Changes
 
 * The code now has a single starting point `socketHolder.scad` and it includes a `commonConfig.scad` that contains all the supported configuration settings. Any value in this file can be overridden in a more specific config file. If not overriden it retains the value found in `commonConfig.scad`. 
-  * The original had each socket holder config include the socket holder source at the end. That works fine but for various reasons I like doing it the way I do it here.
-* Each socket holder has a config file that is included in `socketHolder.scad`, simply uncomment the holder you want or add a new include line
+  * The original had each socket holder config include the socket holder source at the end. Then you rendered each specific config file. That works fine but for various reasons I like doing it the way I do it here.
+* Each socket holder has a config file that is included in `socketHolder.scad` with OpenSCAD's [include](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Include_Statement) statement, simply uncomment the holder you want or add a new include line then comment out all the others
 for a new holder config. Only the values that are different from `commonConfig.scad` need to be put in this file.
 * All config files have been moved into a `config` sub-directory
 
