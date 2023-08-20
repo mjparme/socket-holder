@@ -4,8 +4,9 @@ This project is a modification of the OpenSCAD code at https://www.printables.co
 
 The original is licensed Creative Commons (4.0 International License) Attribution-ShareAlike (https://creativecommons.org/licenses/by-sa/4.0/legalcode). By the terms of that CC license this modification is licensed the same.
 
-![IMG_1204](https://github.com/mjparme/socket-holder/assets/1580996/20fbf65b-ca39-4395-9c30-3d77eea058f6)
+The included configs are specific to the sockets they were created for. To make it useful for yourself you will need to add configs for your own sockets.
 
+![IMG_1204](https://github.com/mjparme/socket-holder/assets/1580996/20fbf65b-ca39-4395-9c30-3d77eea058f6)
 
 # Changes From Original
 
@@ -35,5 +36,7 @@ for a new holder config. Only the values that are different from `commonConfig.s
 * The labels can now optionally be printed separately. This is actually the change I wanted to do that sent me down the rabbit hole of all the other changes I did. Set `includeLabels` to either true or false. If false you can render the labels separately by setting the `PART` variable to `labels`. This way you can do a color swap for the actual labels.
 
 # Additional Picture
+
+In this one the socket holes are fairly far apart to accomodate the fractions with double digit numerators/denominators. 5/16 and 11/32 are still pretty close but didn't want to make it any longer just to accomodate those two labels. I tried using unicode fractions but the font didn't appear to have symbols for those unicode code points and OpenSCAD displayed them as boxes.
 
 ![IMG_1203](https://github.com/mjparme/socket-holder/assets/1580996/6d8c0b7d-e261-40e1-a022-07347d0124b6)

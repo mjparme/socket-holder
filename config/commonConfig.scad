@@ -1,5 +1,5 @@
 //socketDiameters, socketHeight, and socketLabels are generally in the config file for each specific socket holder, they are 
-//here just to document that they are needed, nothing will render until these 3 vectors have values
+//here just to document that they are needed, nothing will render until these 3 vectors have values in them. 
 
 //A vector of socket diameters. Diameter of the holes will be these values + holeClearance
 socketDiameters = [ 

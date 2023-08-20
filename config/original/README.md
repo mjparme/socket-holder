@@ -1,0 +1,2 @@
+ These are the config files that were in the original design (linked to in the repo readme). These configs don't work with this version as
+ some of the variable names are different. I haven't yet made the necessary changes for them to work with my version of the code.
