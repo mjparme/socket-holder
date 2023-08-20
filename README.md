@@ -37,6 +37,6 @@ from multiple places
 
 # Additional Picture
 
-In this one the socket holes are fairly far apart to accomodate the fractions with double digit numerators/denominators. 5/16 and 11/32 are still pretty close but didn't want to make it any longer just to accomodate those two labels. I tried using unicode fractions but the font didn't appear to have symbols for those unicode code points and OpenSCAD displayed them as boxes.
+In this one the socket holes are fairly far apart to accomodate the fractions with double digit numerators and denominators. 5/16 and 11/32 are still pretty close but didn't want to make it any longer just to accomodate those two labels. I tried using unicode fractions but the font didn't appear to have symbols for those unicode code points and OpenSCAD displayed them as boxes.
 
 ![IMG_1203](https://github.com/mjparme/socket-holder/assets/1580996/6d8c0b7d-e261-40e1-a022-07347d0124b6)
