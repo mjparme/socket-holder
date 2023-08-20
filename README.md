@@ -13,7 +13,7 @@ The included configs are specific to the sockets they were created for. To make 
 ## General Cleanup
 
 * The casing of the variables was all over the place, I standarized on camel-case and renamed accordingly (snake-case is an abomination)
-* Refactored the code so it used reusable modules and removed the duplicant text code and put it in a module so the same code could be used
+* Refactored the code so it used reusable modules and removed the duplicate text code and put it in a module so the same code could be used
 from multiple places
 * Renamed some variables to have a more descriptive and/or accurate name
 
@@ -27,6 +27,7 @@ for a new holder config. Only the values that are different from `commonConfig.s
 
 ## Design Changes
 
+* Sunken text doesn't work in the original design. That has been fixed here.
 * I removed the joiner code. I have a big printer so didn't need it. Also many slicers (like PrusaSlicer 2.6) can add connector holes/studs when you cut a model so the joiner code seemed redundant. 
 * Instead of using manually entered `socketDepths` the variable name has been changed to `socketHeights` and you simply input the measured height of your socket. The depth of the hole will be `socketHeight / 2`. Half the socket's height seemed to work the best.
 * The height of the first step is no longer a statically configured value. Instead it is calculated with `max socket hole depth on first step + magentThickess + holeClearance`

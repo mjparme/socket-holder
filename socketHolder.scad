@@ -5,15 +5,15 @@ include <./config/commonConfig.scad>
 //include <./config/hexMetric-Config.scad>
 //include <./config/hexMetricTall-Config.scad>
 //include <./config/starImperial-Config.scad>
-//include <./config/starMetric-Config.scad>
+include <./config/starMetric-Config.scad>
 //include <./config/starBigMixed-Config.scad>
-include <./config/miscTall-Config.scad>
+//include <./config/miscTall-Config.scad>
 
 $fn = $preview ? 30 : 100;
 
 PART = "socketHolder";
 //For printing separate labels, only needed to render lables if you set includeLabels = false 
-//PART = "labels"; 
+PART = "labels"; 
 
 numOfSteps = len(socketDiameters);
 
