@@ -4,7 +4,7 @@
 PART = "socketHolder"; // [socketHolder, labels]
 
 //A vector of socket diameters. Diameter of the holes will be these values + holeClearance
-socketDiameters = [ 12, 20 ];
+socketDiameters = [  ];
 
 //A vector of how tall each socket is. This is used to calculate socket hole depth which is socketHeight / 2
 socketHeights = [
